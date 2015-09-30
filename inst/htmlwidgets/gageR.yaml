@@ -1,0 +1,17 @@
+dependencies:
+- name: angular
+  version: 1.4.0
+  src: htmlwidgets/lib/angular
+  script: ./angular.min.js
+- name: raphael
+  version: 2.1.4
+  src: htmlwidgets/lib/raphael
+  script: raphael.js
+- name: justgage-bower
+  version: 1.0.0
+  src: htmlwidgets/lib/justgage-bower
+  script: justgage.js
+- name: angular-gage
+  version: 0.1.0
+  src: htmlwidgets/lib/angular-gage
+  script: ./dist/angular-gage.min.js
