@@ -23,11 +23,12 @@ htmlwidgets::scaffoldWidget("gageR",bowerPkg="angular-gage")
 library(htmlwidgets)
 library(devtools)
 
-devtools::create("gageR")              
-setwd("gageR")                         r
+devtools::create("gageR")         
+setwd("gageR")                        
 htmlwidgets::scaffoldWidget("gageR",bowerPkg="angular-gage")    
 devtools::install()
 
 library(gageR)
+
 gageR("hello, world")
 
