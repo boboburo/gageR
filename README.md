@@ -33,3 +33,9 @@ library(gageR)
 
 gageR("hello, world")
 
+#To Do
+
+R Bindings in R/gageR.R
+
+Javascript Bindings in inst/htmlwidgets/gageR.js 
+
