@@ -21,6 +21,7 @@ htmlwidgets::scaffoldWidget("gageR",bowerPkg="angular-gage")
 #Original Setup in R
 
 library(htmlwidgets)
+
 library(devtools)
 
 devtools::create("gageR")         
