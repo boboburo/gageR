@@ -5,11 +5,14 @@
 #' @import htmlwidgets
 #'
 #' @export
-gageR <- function(message, width = NULL, height = NULL) {
+gageR <- function(value=NULL, title=NULL,width = NULL, height = NULL,min=NULL,max=NULL) {
 
   # forward options using x
   x = list(
-    message = message
+    value = value,
+    title = title,
+    max = max,
+    min = min
   )
 
   # create widget
